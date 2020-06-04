@@ -107,7 +107,7 @@ class RecipeBody extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
                     Text(
-                      "THE",
+                      "",
                       style: TextStyle(
                           color: Colors.white,
                           fontFamily: "Montserrat",
@@ -159,7 +159,7 @@ class RecipeBody extends StatelessWidget {
                           border: Border(
                               bottom: BorderSide(color: Color(0xFFDDDDDD)))),
                       child: Text(
-                        "INGREDIENTS",
+                        "INGREDIENTES",
                         style: TextStyle(
                             color: Colors.black45,
                             fontSize: 14,
@@ -190,7 +190,7 @@ class RecipeBody extends StatelessWidget {
                                 ),
                               ),
                               Text(
-                                "Item ${index + 1}",
+                                "Ingrediente ${index + 1}",
                                 style: TextStyle(
                                     color: Colors.black45,
                                     fontFamily: 'Montserrat',

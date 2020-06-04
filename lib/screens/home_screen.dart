@@ -14,13 +14,13 @@ class HomePage extends StatefulWidget {
     Recipe(
       imageUrl:
           "https://ichef.bbci.co.uk/food/ic/food_16x9_448/recipes/classic_cornish_pasty_67037_16x9.jpg",
-      title: "Classic Cornish pasty",
+      title: "Empanda",
       ratting: 5,
     ),
     Recipe(
       imageUrl:
           "https://blog-paleohacks.s3.amazonaws.com/wp-content/uploads/2014/09/SCHEMA-PHOTO-paleo-fruit-salad.jpg?x16148",
-      title: "Fruit Salad",
+      title: "Fruta picada",
       ratting: 3.5,
     ),
     Recipe(
@@ -44,7 +44,7 @@ class HomePage extends StatefulWidget {
     Recipe(
       imageUrl:
           "https://images-gmi-pmc.edge-generalmills.com/3007ccc3-f7a9-46ee-99c2-67118ec7b07d.jpg",
-      title: "Vegetables Salad",
+      title: "Verduras ensalda",
       ratting: 2.5,
     ),
   ];
@@ -68,7 +68,7 @@ class _HomePageState extends State<HomePage> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: <Widget>[
                             Text(
-                              "Hot Receipes",
+                              "Mejores recetas",
                               style: TextStyle(
                                   fontFamily: 'Montserrat',
                                   fontWeight: FontWeight.bold,
