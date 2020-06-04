@@ -172,11 +172,13 @@ class RecipeBody extends StatelessWidget {
                         itemCount: 10,
                         itemBuilder: (context, index) => Container(
                           decoration: BoxDecoration(
-                              border: Border(
-                                  bottom: BorderSide(
-                                      color: Color(0xFFDDDDDD),
-                                      style: BorderStyle.solid,
-                                      width: .5))),
+                            border: Border(
+                              bottom: BorderSide(
+                                  color: Color(0xFFDDDDDD),
+                                  style: BorderStyle.solid,
+                                  width: .5),
+                            ),
+                          ),
                           padding:
                               EdgeInsets.symmetric(vertical: 16, horizontal: 8),
                           child: Row(
